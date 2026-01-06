@@ -13,7 +13,7 @@ import tensorflow as tf
 
 # Configurazione
 # Cerchiamo il modello nella stessa cartella dello script
-MODEL_FILENAME = "mnist_cnn.keras"
+MODEL_FILENAME = "cnn_model.keras"
 
 if not os.path.exists(MODEL_FILENAME):
     print(f"[ERRORE] Il file '{MODEL_FILENAME}' non è stato trovato.")
