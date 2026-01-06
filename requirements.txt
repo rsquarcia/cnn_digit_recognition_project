@@ -1,0 +1,14 @@
+# Web Application Framework
+flask
+
+# Machine Learning & Math
+tensorflow==2.15.0
+numpy
+scipy
+
+# Image Processing (For the drawing canvas)
+pillow
+
+# Notebook & Visualization (For the training analysis)
+jupyter
+matplotlib
