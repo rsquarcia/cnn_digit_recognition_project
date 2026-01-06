@@ -13,11 +13,11 @@ import tensorflow as tf
 
 # Configurazione
 # Cerchiamo il modello nella stessa cartella dello script
-MODEL_FILENAME = "cnn_model.keras"
+MODEL_FILENAME = "cnn_model.h5"
 
 if not os.path.exists(MODEL_FILENAME):
     print(f"[ERRORE] Il file '{MODEL_FILENAME}' non è stato trovato.")
-    print("Assicurati di aver il file .keras nella stessa cartella dello script.")
+    print("Assicurati di aver il file .h5 nella stessa cartella dello script.")
     sys.exit(1)
 
 print("Caricamento modello in corso...")
